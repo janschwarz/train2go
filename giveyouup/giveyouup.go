@@ -1,4 +1,4 @@
-package train2go
+package giveyouup
 
 import "fmt"
 
