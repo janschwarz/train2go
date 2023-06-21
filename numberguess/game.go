@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-func main() {
+func Game() {
 	min, max := 1, 100
 	rand.Seed(time.Now().UnixNano())
 	numberToGuess := rand.Intn(max-min) + min
